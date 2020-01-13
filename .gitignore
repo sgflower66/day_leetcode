@@ -1,0 +1,10 @@
+# Python:
+*.spyproject
+*.vscode
+
+# My configurations:
+#code_c
+.docx
+*.jpg
+*.png
+*.jpeg
