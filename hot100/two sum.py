@@ -32,14 +32,14 @@ if n<3 or not nums:
     return []
 res=[]
 nums=sorted(nums)
-for i in range(n):#range(n)
+for i in range(n-2):#range(n)
     L=i+1
     R=n-1
     if nums[n-1]<0:
         return res
     if nums[i]>0:
         return res
-    if i>0 and nums[i-1]==nums[i]:#在while之外11#nums()
+    if i>0 and nums[i]==nums[i-1]:#在while之外11#nums() 去重
         continue
 
     while L<R:
